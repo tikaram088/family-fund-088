@@ -23,15 +23,15 @@ android {
         applicationId = "com.example.family_saving_fund"
         minSdk = 21
         targetSdk = 35
-versionCode = flutter.versionCode()
-versionName = flutter.versionName()
-
+        versionCode = flutter.versionCode()
+        versionName = flutter.versionName()
 
         multiDexEnabled = true
     }
 
     buildTypes {
         release {
+            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.getByName("debug")
         }
     }
@@ -39,8 +39,4 @@ versionName = flutter.versionName()
 
 flutter {
     source = "../.."
-}
-
-dependencies {
-    implementation("androidx.multidex:multidex:2.0.1")
 }
