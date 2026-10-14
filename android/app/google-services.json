@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "697925073944",
+    "project_id": "family-saving-funds",
+    "storage_bucket": "family-saving-funds.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697925073944:android:cfac67fe0faacc7845176d",
+        "android_client_info": {
+          "package_name": "com.example.family_saving_fund"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697925073944-k4ehu2e4ajc2s2l30f2bc5dt42785f73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVjqnZn8z0EatOTRzIOYIyuXEAjOGkBOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697925073944-k4ehu2e4ajc2s2l30f2bc5dt42785f73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
