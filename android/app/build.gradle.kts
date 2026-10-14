@@ -23,8 +23,9 @@ android {
         applicationId = "com.example.family_saving_fund"
         minSdk = 21
         targetSdk = 35
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+versionCode = flutter.versionCode()
+versionName = flutter.versionName()
+
 
         multiDexEnabled = true
     }
